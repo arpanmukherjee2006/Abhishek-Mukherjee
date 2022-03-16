@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.navbar{
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2) ;
+}
+
+.tweet-btn{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 13px 13px;
+     background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.tweet-btn:hover{
+    transform: translatey(-5px);
+    background: linear-gradient(to right,#00b7ff93, #0077feda);
+    color: white;
+}
+
+
+.bg-cover{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 2;
+    position: relative;
+}
+h1,h2,h3,h4,h5,h6,
+.display-4{
+    font-family: 'Playfair Display', serif;
+}
+
+img{
+    width: 100%;
+}
+
+#section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.card-effect{
+    box-shadow: none;
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+
+.card-effect:hover{
+   
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+    transform:transition(-5);
+}
+
+.iconbox{
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    color: #fff;
+    font-size: 32px;
+    border-radius: 100px;
+
+}
+
+.skills{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+.skills:hover{
+    color: #fff;
+}
+
+.skills:after{
+     content:"" ;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: -100%;
+     left: 0;
+     background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+     z-index: -1;
+     opacity: 0;
+     transition: all 0.4s ease;
+
+}
+
+
+
+.skills:hover::after{
+   
+    opacity: 1;
+    top: 0;
+}
+
+.images{
+    border-radius: 8px;
+    box-shadow: none;
+    background-color: #fff;
+    transition: all 0.35s ease;
+}
+
+.images:hover{
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 12px;
+    transform: translateY(8px);
+    color: white ;
+    background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+}
+
+.project{
+    position: relative;
+    overflow: hidden;
+}
+
+.project .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.project img{
+    transition: all 0.4s ease;   
+}
+
+.project div{
+    color: white;
+}
+
+.project:hover .overlay{
+    opacity: 1;
+
+}
+
+.project:hover img{
+    transform: scale(1.1);
+}
+
+.mailbtn{
+    transition: all 0.3s ease;
+    text-decoration: none;
+    padding: 15px 60px;
+     background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+ .mailbtn:hover{
+    transform: translatey(5px);
+    background: linear-gradient(to right,#ff0000f5, #ffffffef);
+    color: white;
+}
+
+.wpbtn{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 15px 60px;
+    background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.wpbtn:hover{
+    transform: translateY(-5px);
+    background: linear-gradient(to right, #1a9b00ef, #30fe07);
+    color: white;  
+}
+
+.linkbtn{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 13px 13px;
+     background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+
+.linkbtn:hover{
+    transform: translatey(-5px);
+    background: linear-gradient(to right,#1900ffda, #00b6feef);
+    color: white;
+}
+
+.gitbtn{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 13px 13px;
+     background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+.gitbtn:hover{
+    transform: translatey(-5px);
+    background: linear-gradient(to right,#8d0202ef, #ff249d);
+    color: white;
+}
+
+.blogbtn{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 13px 13px;
+     background: linear-gradient(to right, #00e0feb3, #fe077ab3);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.blogbtn:hover{
+    transform: translatey(-5px);
+    background: linear-gradient(to right,#ffda05ea, #00fe3ffb);
+    color: white;
+}
+
+.footer{
+    background: linear-gradient(to right, #00e0fede, #ff0077e0);
+    background-attachment: fixed;
+}
+
+.arpantweetbtn{
+    transition: all 0.4s ease;
+    text-decoration: none;
+    padding: 18px 60px;
+    background: linear-gradient(to right,#ff0062, #fe0094cb);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.arpantweetbtn:hover{
+    transform: translatey(-5px);
+    background: linear-gradient(to right,#8f0137ec, #9e005c);
+    color: white;
+}
+
